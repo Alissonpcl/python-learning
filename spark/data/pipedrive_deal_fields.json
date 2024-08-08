@@ -1,0 +1,3092 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 12470,
+            "key": "id",
+            "name": "ID",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12449,
+            "key": "title",
+            "name": "Título",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2023-09-19 10:15:09",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "use_field": "id",
+            "link": "/deal/"
+        },
+        {
+            "id": 12450,
+            "key": "creator_user_id",
+            "name": "Criador",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "user",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12451,
+            "key": "user_id",
+            "name": "Proprietário",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "user",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2023-07-20 11:33:21",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12452,
+            "key": "value",
+            "name": "Valor",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "monetary",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2023-09-19 10:15:10",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": null,
+            "key": "currency",
+            "name": "Moeda",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": false,
+            "parent_id": 12452,
+            "id_suffix": "currency"
+        },
+        {
+            "id": 12453,
+            "key": "org_id",
+            "name": "Organização",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "org",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2023-09-19 10:15:10",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": {
+                "person_id": "<=0"
+            },
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12454,
+            "key": "pipeline",
+            "name": "Funil",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "double",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2023-09-19 10:15:10",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12455,
+            "key": "person_id",
+            "name": "Pessoa de contato",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "people",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2023-09-19 10:15:10",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": {
+                "org_id": "<=0"
+            },
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12456,
+            "key": "stage_id",
+            "name": "Etapa",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "stage",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2023-09-19 10:15:11",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "use_field": "stage"
+        },
+        {
+            "id": 12457,
+            "key": "status",
+            "name": "Status",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "status",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": "open",
+                    "label": "Aberto"
+                },
+                {
+                    "id": "lost",
+                    "label": "Perdido"
+                },
+                {
+                    "id": "won",
+                    "label": "Ganho"
+                },
+                {
+                    "id": "deleted",
+                    "label": "Excluído"
+                }
+            ]
+        },
+        {
+            "id": 12458,
+            "key": "add_time",
+            "name": "Data de criação do negócio",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12459,
+            "key": "update_time",
+            "name": "Data atualizada",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12460,
+            "key": "stage_change_time",
+            "name": "Última alteração de etapa",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12461,
+            "key": "next_activity_date",
+            "name": "Data da próxima atividade",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12462,
+            "key": "last_activity_date",
+            "name": "Data da última atividade",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12463,
+            "key": "won_time",
+            "name": "Ganho em",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": {
+                "status": "=won"
+            },
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": true,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12464,
+            "key": "last_incoming_mail_time",
+            "name": "Último e-mail recebido",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12465,
+            "key": "last_outgoing_mail_time",
+            "name": "Último e-mail enviado",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12466,
+            "key": "lost_time",
+            "name": "Data de perda",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": {
+                "status": "=lost"
+            },
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12467,
+            "key": "close_time",
+            "name": "Negócio fechado em",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12468,
+            "key": "lost_reason",
+            "name": "Motivo da perda",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "varchar_options",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2024-07-25 19:30:02",
+            "last_updated_by_user_id": 12705837,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": {
+                "status": "=lost"
+            },
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": 1269,
+                    "label": "TRIALS e SDR - Motivos pessoais"
+                },
+                {
+                    "id": 542,
+                    "label": "TRIALS, SDR e CS - Não retornou a cadência"
+                },
+                {
+                    "id": 1259,
+                    "label": "SDR - Solicita contato futuro"
+                },
+                {
+                    "id": 1256,
+                    "label": "SDR - Lead duplicado"
+                },
+                {
+                    "id": 1255,
+                    "label": "SDR - Insatisfeito com as dentais"
+                },
+                {
+                    "id": 1254,
+                    "label": "SDR - Cadastro Inválido"
+                },
+                {
+                    "id": 1253,
+                    "label": "SDR - Já possui um trial"
+                },
+                {
+                    "id": 1237,
+                    "label": "TRIALS e SDR - Ainda não abriu a clinica"
+                },
+                {
+                    "id": 618,
+                    "label": "TRIALS e SDR - Bloqueado(a)"
+                },
+                {
+                    "id": 168,
+                    "label": "TRIALS e SDR - Cadastro por engano"
+                },
+                {
+                    "id": 609,
+                    "label": "TRIALS e SDR - Está satisfeito com o sistema que já possui"
+                },
+                {
+                    "id": 274,
+                    "label": "TRIALS e SDR - Estudante"
+                },
+                {
+                    "id": 171,
+                    "label": "TRIALS e SDR - Falta infraestrutura do dentista"
+                },
+                {
+                    "id": 561,
+                    "label": "TRIALS e SDR - Já é cliente"
+                },
+                {
+                    "id": 1120,
+                    "label": "TRIALS e SDR  - Migração"
+                },
+                {
+                    "id": 1238,
+                    "label": "TRIALS e SDR - Não é o tomador de decisão"
+                },
+                {
+                    "id": 1239,
+                    "label": "TRIALS e SDR - Não quer novo contato"
+                },
+                {
+                    "id": 1241,
+                    "label": "TRIALS e SDR - Parou de responder ANTES da oferta"
+                },
+                {
+                    "id": 1242,
+                    "label": "TRIALS e SDR - Parou de responder DEPOIS da oferta"
+                },
+                {
+                    "id": 592,
+                    "label": "TRIALS e SDR - Pessoa nada a ver"
+                },
+                {
+                    "id": 1243,
+                    "label": "TRIALS e SDR - Preço alto para a demanda"
+                },
+                {
+                    "id": 596,
+                    "label": "TRIALS e SDR - Quer plano de saúde/odontológico"
+                },
+                {
+                    "id": 229,
+                    "label": "TRIALS e CS - Faltou funcionalidade"
+                },
+                {
+                    "id": 170,
+                    "label": "TRIALS - Telefone inválido"
+                },
+                {
+                    "id": 544,
+                    "label": "TRIALS - Fechou com concorrente"
+                },
+                {
+                    "id": 1240,
+                    "label": "TRIALS - Pedido de negociação do trial não atendida"
+                },
+                {
+                    "id": 603,
+                    "label": "TRIALS - Lead que virou Trial"
+                },
+                {
+                    "id": 593,
+                    "label": "TRIALS - Meu Doutor"
+                },
+                {
+                    "id": 538,
+                    "label": "TRIALS - Não quis pagar os pacotes extras"
+                },
+                {
+                    "id": 606,
+                    "label": "TRIALS - Procurando para terceiros"
+                },
+                {
+                    "id": 541,
+                    "label": "TRIALS - Valores dos planos"
+                },
+                {
+                    "id": 605,
+                    "label": "TRIALS -  Trails de Canais, parcerias e embaixadores"
+                },
+                {
+                    "id": 1235,
+                    "label": "CS - Clínica cancelou antes das cadências"
+                },
+                {
+                    "id": 1196,
+                    "label": "CS - Cliente pediu para cancelar"
+                },
+                {
+                    "id": 1195,
+                    "label": "CS - Clínica ficou cancelada ao longo das cadências"
+                },
+                {
+                    "id": 1194,
+                    "label": "CS - Clínica entrou no funil já cancelada"
+                },
+                {
+                    "id": 1248,
+                    "label": "Não se aplica nesse funil"
+                },
+                {
+                    "id": 1192,
+                    "label": "Não fez sentido a ação de resgate - acabou de fazer uma call da jornada"
+                },
+                {
+                    "id": 591,
+                    "label": "Requenta"
+                },
+                {
+                    "id": 608,
+                    "label": "Possui sistema próprio"
+                },
+                {
+                    "id": 610,
+                    "label": "Fechando a clinica"
+                },
+                {
+                    "id": 611,
+                    "label": "Adquiriu outro software"
+                },
+                {
+                    "id": 612,
+                    "label": "Preço alto para a demanda"
+                },
+                {
+                    "id": 613,
+                    "label": "Voltou a utilizar agenda de papel"
+                },
+                {
+                    "id": 614,
+                    "label": "Insatisfeito com a equipe SD"
+                },
+                {
+                    "id": 615,
+                    "label": "Rotina automática"
+                },
+                {
+                    "id": 616,
+                    "label": "Motivo de perda aberto"
+                },
+                {
+                    "id": 617,
+                    "label": "Sem motivo definido"
+                },
+                {
+                    "id": 619,
+                    "label": "Indicação por engano"
+                },
+                {
+                    "id": 620,
+                    "label": "Achou o valor alto"
+                },
+                {
+                    "id": 621,
+                    "label": "Quis permanecer no plano Grátis"
+                },
+                {
+                    "id": 622,
+                    "label": "Marketing - Não quis renovar"
+                },
+                {
+                    "id": 623,
+                    "label": "Marketing - Qualidade dos leads"
+                },
+                {
+                    "id": 624,
+                    "label": "Marketing - Poucos leads"
+                },
+                {
+                    "id": 625,
+                    "label": "Marketing - Não gostou da LP"
+                },
+                {
+                    "id": 667,
+                    "label": "DNC - Parou de responder"
+                },
+                {
+                    "id": 668,
+                    "label": "DNC - Sem interesse"
+                },
+                {
+                    "id": 669,
+                    "label": "DNC - Não conseguimos contato"
+                },
+                {
+                    "id": 670,
+                    "label": "DNC - Sem perfil comercial pra ação"
+                },
+                {
+                    "id": 923,
+                    "label": "CANAIS - Já é cliente"
+                },
+                {
+                    "id": 924,
+                    "label": "CANAIS - Não quis testar"
+                },
+                {
+                    "id": 934,
+                    "label": "REDES - Sem interesse após conversa"
+                },
+                {
+                    "id": 935,
+                    "label": "REDES - Fim de cadência"
+                },
+                {
+                    "id": 936,
+                    "label": "REDES - Falta de estrutura do cliente"
+                },
+                {
+                    "id": 937,
+                    "label": "REDES - Faltou funcionalidades na Dash"
+                },
+                {
+                    "id": 938,
+                    "label": "REDES - Faltou funcionalidades no sistema"
+                },
+                {
+                    "id": 939,
+                    "label": "REDES - Achou caro"
+                },
+                {
+                    "id": 940,
+                    "label": "REDES - Não conseguiu contato"
+                },
+                {
+                    "id": 943,
+                    "label": "Cliente afirma não ter necessidade porque já domina as ferramentas do sistema"
+                },
+                {
+                    "id": 994,
+                    "label": "expectativa de venda não cumprida"
+                },
+                {
+                    "id": 995,
+                    "label": "Clínica cancelada"
+                },
+                {
+                    "id": 1017,
+                    "label": "Treinamento não realizado"
+                },
+                {
+                    "id": 1033,
+                    "label": "Fraude Cartão"
+                },
+                {
+                    "id": 1061,
+                    "label": "Retomada (férias/atestado/licença)"
+                },
+                {
+                    "id": 1065,
+                    "label": "Clinica trabalhada em listagem anteriores"
+                },
+                {
+                    "id": 1066,
+                    "label": "Está no plano Vendas"
+                },
+                {
+                    "id": 1067,
+                    "label": "Negociando com concorrente"
+                },
+                {
+                    "id": 1095,
+                    "label": "Terminou o promocional / desconto"
+                },
+                {
+                    "id": 1102,
+                    "label": "Não é do ramo odontológico"
+                },
+                {
+                    "id": 1146,
+                    "label": "Financiamento para pacientes"
+                },
+                {
+                    "id": 1151,
+                    "label": "Não tem secretária ou não quer treinamento para secretária [CS]"
+                },
+                {
+                    "id": 1168,
+                    "label": "Limpeza de funil [CS]"
+                },
+                {
+                    "id": 1189,
+                    "label": "Não fez sentido - calls e recompensa -  já usava"
+                },
+                {
+                    "id": 1190,
+                    "label": "Não fez sentido - calls e recompensa -  acabou de fazer uma call da jornada"
+                },
+                {
+                    "id": 1191,
+                    "label": "Não fez sentido a ação de resgate - já usava"
+                },
+                {
+                    "id": 678,
+                    "label": "Sem interesse"
+                },
+                {
+                    "id": 566,
+                    "label": "Parou de responder"
+                },
+                {
+                    "id": 537,
+                    "label": "Sem interesse após a conversa"
+                },
+                {
+                    "id": 594,
+                    "label": "Não está no momento de compra"
+                },
+                {
+                    "id": 926,
+                    "label": "Cadastro em duplicidade"
+                }
+            ]
+        },
+        {
+            "id": 12469,
+            "key": "visible_to",
+            "name": "Visível para",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "visible_to",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2023-09-19 10:15:11",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Proprietário do item"
+                },
+                {
+                    "id": 3,
+                    "label": "Todos os usuários"
+                }
+            ]
+        },
+        {
+            "id": 12471,
+            "key": "activities_count",
+            "name": "Total de atividades",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12472,
+            "key": "done_activities_count",
+            "name": "Atividades concluídas",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12473,
+            "key": "undone_activities_count",
+            "name": "Atividades para fazer",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12474,
+            "key": "email_messages_count",
+            "name": "Número de mensagens de e-mail",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2017-06-20 18:34:45",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12475,
+            "key": "expected_close_date",
+            "name": "Data de fechamento esperada",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "date",
+            "json_column_flag": false,
+            "add_time": "2017-06-20 18:34:47",
+            "update_time": "2023-07-20 11:33:22",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12511,
+            "key": "probability",
+            "name": "Probabilidade",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "int",
+            "json_column_flag": false,
+            "add_time": "2017-10-11 09:47:03",
+            "update_time": "2023-09-19 10:15:11",
+            "last_updated_by_user_id": 0,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12550,
+            "key": "weighted_value",
+            "name": "Valor ponderado",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "monetary",
+            "json_column_flag": false,
+            "add_time": "2018-02-26 10:07:20",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": false,
+            "sortable_flag": false,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": null,
+            "key": "weighted_value_currency",
+            "name": "Moeda do valor ponderado",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": true,
+            "parent_id": 12550,
+            "id_suffix": "currency"
+        },
+        {
+            "id": 12570,
+            "key": "product_quantity",
+            "name": "Quantidade de produtos",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "double",
+            "json_column_flag": false,
+            "add_time": "2019-06-14 08:31:04",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": false,
+            "sortable_flag": false,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12571,
+            "key": "product_amount",
+            "name": "Valor de produtos",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "double",
+            "json_column_flag": false,
+            "add_time": "2019-06-14 08:31:04",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": false,
+            "sortable_flag": false,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12582,
+            "key": "label",
+            "name": "Etiqueta",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "set",
+            "json_column_flag": false,
+            "add_time": "2020-02-07 06:42:24",
+            "update_time": "2024-08-01 17:28:36",
+            "last_updated_by_user_id": 12815357,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": true,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": 1309,
+                    "label": "Scanner",
+                    "color": "brown"
+                },
+                {
+                    "id": 1308,
+                    "label": "Indique e Ganhe",
+                    "color": "orange"
+                },
+                {
+                    "id": 1249,
+                    "label": "SDR",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 1307,
+                    "label": "SDR Igor",
+                    "color": "gray"
+                },
+                {
+                    "id": 1306,
+                    "label": "SDR Eliane",
+                    "color": "gray"
+                },
+                {
+                    "id": 666,
+                    "label": "requenta 2.0",
+                    "color": "green"
+                },
+                {
+                    "id": 636,
+                    "label": "Prioridade",
+                    "color": "red"
+                },
+                {
+                    "id": 1109,
+                    "label": "Indicação Atendimento",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1171,
+                    "label": "Indicações NPS10",
+                    "color": "blue"
+                },
+                {
+                    "id": 1193,
+                    "label": "Redes sem BI",
+                    "color": "yellow"
+                },
+                {
+                    "id": 996,
+                    "label": "Indicações",
+                    "color": "purple"
+                },
+                {
+                    "id": 1230,
+                    "label": "Super quente",
+                    "color": "red"
+                },
+                {
+                    "id": 1231,
+                    "label": "Quente",
+                    "color": "orange"
+                },
+                {
+                    "id": 1232,
+                    "label": "Morno",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1233,
+                    "label": "Frio",
+                    "color": "blue"
+                },
+                {
+                    "id": 1288,
+                    "label": "Grupeiros",
+                    "color": "brown"
+                },
+                {
+                    "id": 725,
+                    "label": "Call Center",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1148,
+                    "label": "Upsell",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1167,
+                    "label": "Financiamento para pacientes",
+                    "color": "orange"
+                },
+                {
+                    "id": 1149,
+                    "label": "Gestão de cancelamento",
+                    "color": "purple"
+                },
+                {
+                    "id": 1059,
+                    "label": "Material Rico",
+                    "color": "purple"
+                },
+                {
+                    "id": 1114,
+                    "label": "Redes Sociais",
+                    "color": "orange"
+                },
+                {
+                    "id": 1140,
+                    "label": "CIOSP/24",
+                    "color": "orange"
+                },
+                {
+                    "id": 1111,
+                    "label": "Outbound_",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 1127,
+                    "label": "Gratis",
+                    "color": "brown"
+                },
+                {
+                    "id": 1113,
+                    "label": "Index 2023",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 733,
+                    "label": "Email Trial",
+                    "color": "blue"
+                },
+                {
+                    "id": 712,
+                    "label": "Lead Enriquecido",
+                    "color": "purple"
+                },
+                {
+                    "id": 726,
+                    "label": "Indicação direto Dentais",
+                    "color": "blue"
+                },
+                {
+                    "id": 1116,
+                    "label": "CONGREHOF/2023",
+                    "color": "gray"
+                },
+                {
+                    "id": 1026,
+                    "label": "Live SD",
+                    "color": "blue"
+                },
+                {
+                    "id": 1027,
+                    "label": "Funil antigo",
+                    "color": "red"
+                },
+                {
+                    "id": 1028,
+                    "label": "Abroos 2023",
+                    "color": "orange"
+                },
+                {
+                    "id": 732,
+                    "label": "Indicação atendimento - Free",
+                    "color": "green"
+                },
+                {
+                    "id": 717,
+                    "label": "CIOSP 2023",
+                    "color": "red"
+                },
+                {
+                    "id": 638,
+                    "label": "Indicação Vendas",
+                    "color": "yellow"
+                },
+                {
+                    "id": 440,
+                    "label": "Primeiro desafio",
+                    "color": "red"
+                },
+                {
+                    "id": 441,
+                    "label": "Segundo desafio",
+                    "color": "blue"
+                },
+                {
+                    "id": 466,
+                    "label": "Ambos desafios",
+                    "color": "purple"
+                },
+                {
+                    "id": 465,
+                    "label": "Reincidente",
+                    "color": "yellow"
+                },
+                {
+                    "id": 468,
+                    "label": "Não reincidente",
+                    "color": "green"
+                },
+                {
+                    "id": 526,
+                    "label": "Sem cadastro no SD",
+                    "color": "purple"
+                },
+                {
+                    "id": 577,
+                    "label": "Weder DEZ",
+                    "color": "purple"
+                },
+                {
+                    "id": 578,
+                    "label": "Weder JAN",
+                    "color": "yellow"
+                },
+                {
+                    "id": 579,
+                    "label": "PAGO - Já baixou no NewMRR",
+                    "color": "gray"
+                },
+                {
+                    "id": 644,
+                    "label": "Lista Dental",
+                    "color": "yellow"
+                },
+                {
+                    "id": 646,
+                    "label": "Trial Dental Gio/Rafa",
+                    "color": "blue"
+                },
+                {
+                    "id": 649,
+                    "label": "ODF 22 - Não clientes",
+                    "color": "red"
+                },
+                {
+                    "id": 651,
+                    "label": "Mão Levantada",
+                    "color": "red"
+                },
+                {
+                    "id": 716,
+                    "label": "CIOSP",
+                    "color": "green"
+                },
+                {
+                    "id": 730,
+                    "label": "Varias Ligações",
+                    "color": "green"
+                },
+                {
+                    "id": 918,
+                    "label": "INDICAÇÃO CS",
+                    "color": "yellow"
+                },
+                {
+                    "id": 941,
+                    "label": "Excluir",
+                    "color": "red"
+                },
+                {
+                    "id": 992,
+                    "label": "Teste Grátis Upgrade",
+                    "color": "purple"
+                },
+                {
+                    "id": 1011,
+                    "label": "Cadência",
+                    "color": "pink"
+                },
+                {
+                    "id": 1012,
+                    "label": "Reajuste de preço",
+                    "color": "red"
+                },
+                {
+                    "id": 1014,
+                    "label": "Problemas administrativos",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 1016,
+                    "label": "Fechou a clínica",
+                    "color": "orange"
+                },
+                {
+                    "id": 1018,
+                    "label": "Outbound",
+                    "color": "red"
+                },
+                {
+                    "id": 1019,
+                    "label": "Veio do Vendas",
+                    "color": "pink"
+                },
+                {
+                    "id": 1020,
+                    "label": "Veio da Cadência",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 1024,
+                    "label": "Migrou sistema",
+                    "color": "purple"
+                },
+                {
+                    "id": 1106,
+                    "label": "Live recém formados",
+                    "color": "brown"
+                },
+                {
+                    "id": 1029,
+                    "label": "Não está no momento da compra - requenta",
+                    "color": "brown"
+                },
+                {
+                    "id": 1030,
+                    "label": "INVÁLIDO",
+                    "color": "orange"
+                },
+                {
+                    "id": 1062,
+                    "label": "Treinamento início de jornada.",
+                    "color": "blue"
+                },
+                {
+                    "id": 1064,
+                    "label": "Lista Interna",
+                    "color": "blue"
+                },
+                {
+                    "id": 1099,
+                    "label": "Ameaça de Churn",
+                    "color": "red"
+                },
+                {
+                    "id": 1100,
+                    "label": "Reativação",
+                    "color": "green"
+                },
+                {
+                    "id": 1103,
+                    "label": "Whatsapp Produto",
+                    "color": "green"
+                },
+                {
+                    "id": 1110,
+                    "label": "em espera",
+                    "color": "red"
+                },
+                {
+                    "id": 1123,
+                    "label": "Foi para planilha WhatsApp Vitor",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1124,
+                    "label": "Grupos - Black November",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 1128,
+                    "label": "cliente free",
+                    "color": "red"
+                },
+                {
+                    "id": 1130,
+                    "label": "30 minutos",
+                    "color": "purple"
+                },
+                {
+                    "id": 1131,
+                    "label": "1 hora",
+                    "color": "orange"
+                },
+                {
+                    "id": 1133,
+                    "label": "SIN",
+                    "color": "pink"
+                },
+                {
+                    "id": 1135,
+                    "label": "Embaixador - Trigueiro",
+                    "color": "purple"
+                },
+                {
+                    "id": 1125,
+                    "label": "Whats da Dri",
+                    "color": "blue"
+                },
+                {
+                    "id": 1126,
+                    "label": "Whats da Kami",
+                    "color": "pink"
+                },
+                {
+                    "id": 1141,
+                    "label": "Clientes qeu chamaram",
+                    "color": "brown"
+                },
+                {
+                    "id": 1142,
+                    "label": "Hunter",
+                    "color": "blue"
+                },
+                {
+                    "id": 1143,
+                    "label": "Closer",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 1147,
+                    "label": "Follow up - CIOSP",
+                    "color": "brown"
+                },
+                {
+                    "id": 1150,
+                    "label": "Grupos WhatsApp",
+                    "color": "purple"
+                },
+                {
+                    "id": 1157,
+                    "label": "Apenas E-mail",
+                    "color": "brown"
+                },
+                {
+                    "id": 1158,
+                    "label": "Requenta [CS]",
+                    "color": "gray"
+                },
+                {
+                    "id": 1162,
+                    "label": "Treinamento",
+                    "color": "orange"
+                },
+                {
+                    "id": 1172,
+                    "label": "Requenta Upsell",
+                    "color": "pink"
+                },
+                {
+                    "id": 1175,
+                    "label": "Resgate + Projeto Luciano",
+                    "color": "purple"
+                },
+                {
+                    "id": 1181,
+                    "label": "Renovação anual - critico",
+                    "color": "red"
+                },
+                {
+                    "id": 1183,
+                    "label": "Envio cancelado 30/04",
+                    "color": "blue"
+                },
+                {
+                    "id": 1178,
+                    "label": "B - Sem Brinde",
+                    "color": "red"
+                },
+                {
+                    "id": 1179,
+                    "label": "C - Com Brinde",
+                    "color": "green"
+                },
+                {
+                    "id": 1184,
+                    "label": "Cadência A",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1185,
+                    "label": "Cadência B",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1182,
+                    "label": "Cadência apelativa",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1236,
+                    "label": "População pré teste formal CX01",
+                    "color": "orange"
+                },
+                {
+                    "id": 1180,
+                    "label": "CS01 - Resgate 01",
+                    "color": "dark-gray"
+                },
+                {
+                    "id": 1186,
+                    "label": "RIO GRANDE DO SUL",
+                    "color": "brown"
+                },
+                {
+                    "id": 1197,
+                    "label": "Comunicação Intercom",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1198,
+                    "label": "Jira CX-119",
+                    "color": "blue"
+                },
+                {
+                    "id": 1234,
+                    "label": "Orthoscience/2024",
+                    "color": "orange"
+                },
+                {
+                    "id": 1174,
+                    "label": "[CS] Resgate",
+                    "color": "brown"
+                },
+                {
+                    "id": 1105,
+                    "label": "Boleto gerado",
+                    "color": "pink"
+                },
+                {
+                    "id": 1165,
+                    "label": "Redes & Franquias",
+                    "color": "gray"
+                },
+                {
+                    "id": 1244,
+                    "label": "CS02 - Resgate 02",
+                    "color": "blue"
+                },
+                {
+                    "id": 1245,
+                    "label": "cadencia 1 dia atrasada",
+                    "color": "brown"
+                },
+                {
+                    "id": 1246,
+                    "label": "Expirado",
+                    "color": "orange"
+                },
+                {
+                    "id": 1247,
+                    "label": "Nao respondi a tempo",
+                    "color": "orange"
+                },
+                {
+                    "id": 1250,
+                    "label": "CS03 - ADM 01",
+                    "color": "green"
+                },
+                {
+                    "id": 1252,
+                    "label": "CS05 - ADM 03",
+                    "color": "brown"
+                },
+                {
+                    "id": 1265,
+                    "label": "Botão do Whats no Produto",
+                    "color": "pink"
+                },
+                {
+                    "id": 1266,
+                    "label": "CS08 - ADM 05",
+                    "color": "blue"
+                },
+                {
+                    "id": 1267,
+                    "label": "CS06 - Resgate 03",
+                    "color": "gray"
+                },
+                {
+                    "id": 1289,
+                    "label": "Lista 1",
+                    "color": "yellow"
+                },
+                {
+                    "id": 1290,
+                    "label": "Lista 2",
+                    "color": "blue"
+                },
+                {
+                    "id": 1291,
+                    "label": "Lista 3",
+                    "color": "green"
+                },
+                {
+                    "id": 1303,
+                    "label": "Resposta automática cadência",
+                    "color": "red"
+                },
+                {
+                    "id": 1304,
+                    "label": "Lista 4",
+                    "color": "orange"
+                },
+                {
+                    "id": 1305,
+                    "label": "Lista 5",
+                    "color": "purple"
+                },
+                {
+                    "id": 1310,
+                    "label": "Influenciador.Instagram.",
+                    "color": "blue"
+                },
+                {
+                    "id": 1311,
+                    "label": "Lista 6",
+                    "color": "purple"
+                }
+            ]
+        },
+        {
+            "id": 12672,
+            "key": "product_name",
+            "name": "Nome do produto",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2023-05-27 07:49:00",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": false,
+            "sortable_flag": false,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12697,
+            "key": "mrr",
+            "name": "MRR",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "monetary",
+            "json_column_flag": false,
+            "add_time": "2024-05-06 09:31:03",
+            "update_time": "2024-06-18 13:49:37",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": null,
+            "key": "mrr_currency",
+            "name": "Moeda de MRR",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": true,
+            "parent_id": 12697,
+            "id_suffix": "currency"
+        },
+        {
+            "id": 12698,
+            "key": "arr",
+            "name": "ARR",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "monetary",
+            "json_column_flag": false,
+            "add_time": "2024-05-06 09:31:03",
+            "update_time": "2024-06-18 13:49:37",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": null,
+            "key": "arr_currency",
+            "name": "Moeda de ARR",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": true,
+            "parent_id": 12698,
+            "id_suffix": "currency"
+        },
+        {
+            "id": 12699,
+            "key": "acv",
+            "name": "ACV",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "monetary",
+            "json_column_flag": false,
+            "add_time": "2024-05-06 09:31:03",
+            "update_time": "2024-06-18 13:49:37",
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": false,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": null,
+            "key": "acv_currency",
+            "name": "Moeda de ACV",
+            "field_type": "varchar",
+            "edit_flag": false,
+            "active_flag": true,
+            "is_subfield": true,
+            "mandatory_flag": true,
+            "parent_id": 12699,
+            "id_suffix": "currency"
+        },
+        {
+            "id": 12709,
+            "key": "origin",
+            "name": "Origem",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "enum",
+            "json_column_flag": false,
+            "add_time": "2024-05-23 09:52:28",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": true,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": "ManuallyCreated",
+                    "label": "Criado manualmente"
+                },
+                {
+                    "id": "Import",
+                    "label": "Importação"
+                },
+                {
+                    "id": "API",
+                    "label": "API"
+                },
+                {
+                    "id": "Automation",
+                    "label": "Automação"
+                },
+                {
+                    "id": "Marketplace",
+                    "label": "Marketplace"
+                },
+                {
+                    "id": "Prospector",
+                    "label": "Prospector"
+                },
+                {
+                    "id": "LeadSuggestion",
+                    "label": "Sugestões de leads"
+                },
+                {
+                    "id": "WebForms",
+                    "label": "Formulários digitais"
+                },
+                {
+                    "id": "Chatbot",
+                    "label": "Chatbot"
+                },
+                {
+                    "id": "LiveChat",
+                    "label": "Live Chat"
+                },
+                {
+                    "id": "WebVisitors",
+                    "label": "Visitantes da web"
+                },
+                {
+                    "id": "Campaigns",
+                    "label": "Campaigns"
+                },
+                {
+                    "id": "MessagingInbox",
+                    "label": "Caixa de entrada de mensagens"
+                }
+            ]
+        },
+        {
+            "id": 12710,
+            "key": "origin_id",
+            "name": "ID de origem",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2024-05-23 09:52:28",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": false,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12711,
+            "key": "channel",
+            "name": "Canal de origem",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "enum",
+            "json_column_flag": false,
+            "add_time": "2024-05-23 09:52:28",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": 1220,
+                    "label": "Prospector"
+                },
+                {
+                    "id": 1221,
+                    "label": "Lead Suggestions"
+                },
+                {
+                    "id": 1222,
+                    "label": "Web forms"
+                },
+                {
+                    "id": 1223,
+                    "label": "Chatbot"
+                },
+                {
+                    "id": 1224,
+                    "label": "Live chat"
+                },
+                {
+                    "id": 1225,
+                    "label": "Web visitors"
+                },
+                {
+                    "id": 1226,
+                    "label": "Campaigns"
+                },
+                {
+                    "id": 1227,
+                    "label": "Marketplace"
+                },
+                {
+                    "id": 1228,
+                    "label": "Messaging Inbox"
+                }
+            ]
+        },
+        {
+            "id": 12712,
+            "key": "channel_id",
+            "name": "ID do canal de origem",
+            "group_id": null,
+            "order_nr": 0,
+            "field_type": "varchar",
+            "json_column_flag": false,
+            "add_time": "2024-05-23 09:52:28",
+            "update_time": null,
+            "last_updated_by_user_id": null,
+            "edit_flag": false,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": true,
+            "searchable_flag": false,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12620,
+            "key": "40da9a83678835916608360f174d8792c8b1f63a",
+            "name": "Data de início trial",
+            "group_id": 5,
+            "order_nr": 2,
+            "field_type": "date",
+            "json_column_flag": true,
+            "add_time": "2021-11-30 18:27:48",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 2668599,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12566,
+            "key": "4f9ad922ecba0372694470a41b6c13ece01ec6d3",
+            "name": "origem - VENDAS",
+            "group_id": 5,
+            "order_nr": 3,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2018-11-14 17:12:53",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 8194618,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12476,
+            "key": "ba8520544e3f3fb8e8b8b5a6e42f475a3fc3a307",
+            "name": "Link - VENDAS",
+            "group_id": 5,
+            "order_nr": 4,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2017-06-21 17:29:42",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 20907647,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": "",
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12626,
+            "key": "64981a7928588eb0abad7858978fff67ffa1c3b0",
+            "name": "Contexto da clínica",
+            "group_id": 5,
+            "order_nr": 5,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2022-09-27 14:03:51",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 2668599,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12623,
+            "key": "58b5a663994afc6258d0d7051856ab675b6118d6",
+            "name": "Papel do usuário",
+            "group_id": 5,
+            "order_nr": 6,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2022-06-16 18:29:29",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 14644440,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12627,
+            "key": "86c9f1ee3c07089f95fc1ec4480a9d8f42c5d1aa",
+            "name": "Quantas pessoas trabalham na clínica",
+            "group_id": 5,
+            "order_nr": 7,
+            "field_type": "double",
+            "json_column_flag": true,
+            "add_time": "2022-09-27 14:06:12",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 14644440,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12598,
+            "key": "97a9344d1155a76ecbbb118db5265c29cab5c26f",
+            "name": "Plano",
+            "group_id": 5,
+            "order_nr": 8,
+            "field_type": "enum",
+            "json_column_flag": true,
+            "add_time": "2020-12-17 13:33:21",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 2668599,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": 491,
+                    "label": "Agenda"
+                },
+                {
+                    "id": 492,
+                    "label": "Gestão"
+                },
+                {
+                    "id": 493,
+                    "label": "Vendas"
+                },
+                {
+                    "id": 581,
+                    "label": "Marketing"
+                }
+            ]
+        },
+        {
+            "id": 12608,
+            "key": "0281daf216971f450840b9b03068d444bad08925",
+            "name": "Logins por dia durante trial",
+            "group_id": 5,
+            "order_nr": 9,
+            "field_type": "double",
+            "json_column_flag": true,
+            "add_time": "2021-09-02 13:51:59",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 2668599,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12607,
+            "key": "2b99d5d7ba2ce0a920103d1ae649603dc89af66f",
+            "name": "Total de logins durante trial",
+            "group_id": 5,
+            "order_nr": 10,
+            "field_type": "double",
+            "json_column_flag": true,
+            "add_time": "2021-09-02 13:51:45",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 2668599,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12609,
+            "key": "6d108b52093646a2c9ed6290c8667525c87bc0ea",
+            "name": "Total de consultas cadastradas durante trial",
+            "group_id": 5,
+            "order_nr": 11,
+            "field_type": "double",
+            "json_column_flag": true,
+            "add_time": "2021-09-02 13:52:18",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 2668599,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12676,
+            "key": "1b91fa0e4938c3bae4497842cc7ba53f9aac5802",
+            "name": "Utiliza um software de gestão?",
+            "group_id": 5,
+            "order_nr": 12,
+            "field_type": "enum",
+            "json_column_flag": true,
+            "add_time": "2023-07-20 15:01:11",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": "",
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": 1090,
+                    "label": "Sim, outro software"
+                },
+                {
+                    "id": 1091,
+                    "label": "Não"
+                }
+            ]
+        },
+        {
+            "id": 12704,
+            "key": "802691a22f14be9135b71d31d14e69f3c8ab76f9",
+            "name": "Quantas unidades?",
+            "group_id": 7,
+            "order_nr": 15,
+            "field_type": "enum",
+            "json_column_flag": true,
+            "add_time": "2024-05-21 19:50:23",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": "",
+            "created_by_user_id": 11329043,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": 1200,
+                    "label": "De 1 a 3"
+                },
+                {
+                    "id": 1201,
+                    "label": "De 4 a 6"
+                },
+                {
+                    "id": 1202,
+                    "label": "De 7 a 10"
+                },
+                {
+                    "id": 1203,
+                    "label": "Acima de 11"
+                }
+            ]
+        },
+        {
+            "id": 12708,
+            "key": "8dc3a0c7e32d38128897fda64e000de9c918cb80",
+            "name": "Canal de relacionamento",
+            "group_id": 7,
+            "order_nr": 16,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-05-21 20:00:17",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": 11329043,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12707,
+            "key": "317a052f82259323f6d637b49f0a7b7f08045817",
+            "name": "Origem",
+            "group_id": 7,
+            "order_nr": 17,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-05-21 19:57:17",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": 11329043,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12706,
+            "key": "9c305ae02110025b9331096a380a274896c0853f",
+            "name": "Nível de satisfação",
+            "group_id": 7,
+            "order_nr": 18,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-05-21 19:56:54",
+            "update_time": "2024-06-04 18:19:01",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": 11329043,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12719,
+            "key": "690996d270e96631431b84a48115ea28ee6c5f4b",
+            "name": "Sou dentista há...",
+            "group_id": 9,
+            "order_nr": 20,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-07-04 15:12:42",
+            "update_time": "2024-07-04 15:14:02",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": "",
+            "created_by_user_id": 11329043,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12718,
+            "key": "c44080030281ef09f1af7c81ff7690fcf150dd93",
+            "name": "Data da perda do trial",
+            "group_id": 9,
+            "order_nr": 21,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-07-01 19:55:23",
+            "update_time": "2024-07-04 15:12:42",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": 11329043,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12717,
+            "key": "359468bf7aee68429da691d4e825bf93441789ee",
+            "name": "Origem para SDR",
+            "group_id": 9,
+            "order_nr": 22,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-06-26 17:21:32",
+            "update_time": "2024-07-04 15:12:42",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": false,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": null,
+            "created_by_user_id": 11329043,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12713,
+            "key": "0226092b8811b0a744da52ef22278aae61b44b2c",
+            "name": "Nível de satisfação - SDR",
+            "group_id": 9,
+            "order_nr": 23,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-05-23 18:36:09",
+            "update_time": "2024-07-04 15:12:42",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": "",
+            "created_by_user_id": 11329043,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12714,
+            "key": "6cc6b1ae04d7d0c72f4540aab92364d929b49996",
+            "name": "Gostaria que...",
+            "group_id": 9,
+            "order_nr": 24,
+            "field_type": "varchar",
+            "json_column_flag": true,
+            "add_time": "2024-05-23 18:40:42",
+            "update_time": "2024-07-04 15:12:42",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": false,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": "",
+            "created_by_user_id": 11329043,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            }
+        },
+        {
+            "id": 12664,
+            "key": "cd1807339972e4fba0dec4509635a1e897fc9de5",
+            "name": "Qual problema você deseja resolver?",
+            "group_id": 9,
+            "order_nr": 25,
+            "field_type": "set",
+            "json_column_flag": true,
+            "add_time": "2023-04-26 17:46:34",
+            "update_time": "2024-07-04 15:12:42",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": "",
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": 952,
+                    "label": "Abri um consultório ou clinica e quero ter um software"
+                },
+                {
+                    "id": 945,
+                    "label": "Acabar com o papel "
+                },
+                {
+                    "id": 944,
+                    "label": "Ter um melhor controle financeiro"
+                },
+                {
+                    "id": 946,
+                    "label": "Ter uma agenda online e confirmar consultas "
+                },
+                {
+                    "id": 947,
+                    "label": "Aproveitar melhor as oportunidades de venda "
+                },
+                {
+                    "id": 948,
+                    "label": "Ter acesso a dados da clinica de qualquer lugar "
+                },
+                {
+                    "id": 949,
+                    "label": "Organizar melhor as fotos e fichas dos pacientes "
+                },
+                {
+                    "id": 950,
+                    "label": "Migrar para um software mais fácil e intuitivo"
+                },
+                {
+                    "id": 951,
+                    "label": "Migrar para um software com mais funcionalidades "
+                }
+            ]
+        },
+        {
+            "id": 12655,
+            "key": "46c1f54f65dbbe8ec25d9897d3645306f15f1364",
+            "name": "Possui secretária?",
+            "group_id": 9,
+            "order_nr": 26,
+            "field_type": "enum",
+            "json_column_flag": true,
+            "add_time": "2023-01-11 19:20:14",
+            "update_time": "2024-07-04 15:12:42",
+            "last_updated_by_user_id": 11329043,
+            "edit_flag": true,
+            "details_visible_flag": true,
+            "add_visible_flag": true,
+            "important_flag": true,
+            "bulk_edit_allowed": true,
+            "filtering_allowed": true,
+            "sortable_flag": true,
+            "mandatory_flag": false,
+            "searchable_flag": true,
+            "description": "",
+            "created_by_user_id": null,
+            "active_flag": true,
+            "projects_detail_visible_flag": false,
+            "show_in_pipelines": {
+                "show_in_all": true,
+                "pipeline_ids": []
+            },
+            "options": [
+                {
+                    "id": 708,
+                    "label": "Sim 1 "
+                },
+                {
+                    "id": 953,
+                    "label": "Sim 2 "
+                },
+                {
+                    "id": 954,
+                    "label": "Sim 3 "
+                },
+                {
+                    "id": 955,
+                    "label": "Sim 4 ou mais"
+                },
+                {
+                    "id": 956,
+                    "label": "Não mas quero ter"
+                },
+                {
+                    "id": 709,
+                    "label": "Não"
+                }
+            ]
+        }
+    ],
+    "additional_data": {
+        "pagination": {
+            "start": 0,
+            "limit": 500,
+            "more_items_in_collection": false
+        }
+    }
+}
