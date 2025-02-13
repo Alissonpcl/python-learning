@@ -1,0 +1,78 @@
+{
+    "success": true,
+    "data": [        
+        {
+            "id": 666999,
+            "name": "Infra",
+            "email": "infra@empresa.com",
+            "lang": 7,
+            "locale": "pt_BR",
+            "timezone_name": "America/Sao_Paulo",
+            "timezone_offset": "-03:00",
+            "default_currency": "BRL",
+            "icon_url": null,
+            "active_flag": true,
+            "is_admin": 1,
+            "role_id": 1,
+            "created": "2020-10-26 14:10:41",
+            "has_created_company": false,
+            "is_you": true,
+            "access": [
+                {
+                    "app": "sales",
+                    "admin": true,
+                    "permission_set_id": "ABC-89ab-11ec-9883-0d842745e209"
+                },
+                {
+                    "app": "global",
+                    "admin": true,
+                    "permission_set_id": "ABC-db57-11ec-93f1-e9cfc58fcd59"
+                },
+                {
+                    "app": "account_settings",
+                    "admin": true,
+                    "permission_set_id": "ABC-ed6e-11ec-9374-734d2b8a6f5b"
+                }
+            ],
+            "phone": null,
+            "last_login": "2024-07-31 13:06:48",
+            "modified": "2024-07-31 13:06:48",
+            "is_deleted": false
+        },
+        {
+            "id": 666990,
+            "name": "John",
+            "email": "john@empresa.com",
+            "lang": 1,
+            "locale": "pt_BR",
+            "timezone_name": "America/Sao_Paulo",
+            "timezone_offset": "-03:00",
+            "default_currency": "BRL",
+            "icon_url": null,
+            "active_flag": true,
+            "is_admin": 0,
+            "role_id": 1,
+            "created": "2024-07-16 14:54:31",
+            "has_created_company": false,
+            "is_you": false,
+            "access": [
+                {
+                    "app": "sales",
+                    "admin": false,
+                    "permission_set_id": "ABC-89ab-11ec-9883-0d842745e209"
+                },
+                {
+                    "app": "global",
+                    "admin": false,
+                    "permission_set_id": "ABC-db57-11ec-93f1-e9cfc58fcd59"
+                }
+            ],
+            "last_login": "2024-07-29 14:24:45",
+            "modified": "2024-07-29 14:24:45",
+            "is_deleted": false
+        }
+    ],
+    "additional_data": {
+        "company_id": 999969999
+    }
+}
