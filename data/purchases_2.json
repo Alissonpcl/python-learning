@@ -1,0 +1,597 @@
+[
+  {
+    "customer_id": 26,
+    "purchase_amount_usd": 371.39,
+    "timestamp": "2024-08-06T02:05:31",
+    "discount_code": "southern",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 10,
+    "purchase_amount_usd": 124.71,
+    "timestamp": "2025-02-11T18:09:51",
+    "discount_code": "nation",
+    "channel": "web"
+  },
+  {
+    "customer_id": 3,
+    "purchase_amount_usd": 23.06,
+    "timestamp": "2025-06-06T15:11:38",
+    "discount_code": "five",
+    "channel": "store"
+  },
+  {
+    "customer_id": 8,
+    "purchase_amount_usd": 373.36,
+    "timestamp": "2025-01-22T20:38:37",
+    "discount_code": "it"
+  },
+  {
+    "customer_id": 44,
+    "purchase_amount_usd": 315.85,
+    "timestamp": "2024-07-20T12:56:04",
+    "discount_code": "seat"
+  },
+  {
+    "customer_id": 8,
+    "purchase_amount_usd": 263.68,
+    "timestamp": "2025-01-17T15:14:25",
+    "discount_code": "production"
+  },
+  {
+    "customer_id": 20,
+    "purchase_amount_usd": 17.7,
+    "timestamp": "2024-07-22T05:44:17",
+    "discount_code": "medical"
+  },
+  {
+    "customer_id": 20,
+    "purchase_amount_usd": 69.17,
+    "timestamp": "2025-04-17T09:12:28",
+    "discount_code": "best",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 26,
+    "purchase_amount_usd": 479.89,
+    "timestamp": "2024-09-14T02:09:55",
+    "discount_code": "beyond",
+    "channel": "web"
+  },
+  {
+    "customer_id": 46,
+    "purchase_amount_usd": 484.33,
+    "timestamp": "2024-09-30T00:46:24",
+    "discount_code": "expect"
+  },
+  {
+    "customer_id": 38,
+    "purchase_amount_usd": 283.99,
+    "timestamp": "2025-05-28T07:38:50",
+    "discount_code": "billion",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 49,
+    "purchase_amount_usd": 427.71,
+    "timestamp": "2025-04-05T18:35:32",
+    "discount_code": "long",
+    "channel": "web"
+  },
+  {
+    "customer_id": 45,
+    "purchase_amount_usd": 344.93,
+    "timestamp": "2024-08-19T16:48:28",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 3,
+    "purchase_amount_usd": 498.58,
+    "timestamp": "2024-08-11T18:16:28",
+    "channel": "web"
+  },
+  {
+    "customer_id": 49,
+    "purchase_amount_usd": 422.52,
+    "timestamp": "2024-09-28T20:18:22",
+    "channel": "store"
+  },
+  {
+    "customer_id": 5,
+    "purchase_amount_usd": 119.89,
+    "timestamp": "2025-04-22T21:59:43"
+  },
+  {
+    "customer_id": 1,
+    "purchase_amount_usd": 151.46,
+    "timestamp": "2025-05-02T06:33:41",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 25,
+    "purchase_amount_usd": 184.0,
+    "timestamp": "2025-06-24T14:49:28"
+  },
+  {
+    "customer_id": 20,
+    "purchase_amount_usd": 19.28,
+    "timestamp": "2025-05-15T01:15:12",
+    "discount_code": "really"
+  },
+  {
+    "customer_id": 25,
+    "purchase_amount_usd": 111.16,
+    "timestamp": "2024-12-05T14:00:48",
+    "discount_code": "current"
+  },
+  {
+    "customer_id": 14,
+    "purchase_amount_usd": 79.95,
+    "timestamp": "2024-11-22T14:43:29",
+    "discount_code": "phone",
+    "channel": "web"
+  },
+  {
+    "customer_id": 3,
+    "purchase_amount_usd": 142.55,
+    "timestamp": "2025-01-12T02:15:33"
+  },
+  {
+    "customer_id": 26,
+    "purchase_amount_usd": 385.4,
+    "timestamp": "2025-03-16T00:57:41"
+  },
+  {
+    "customer_id": 28,
+    "purchase_amount_usd": 101.5,
+    "timestamp": "2025-04-19T14:20:31",
+    "discount_code": "beautiful",
+    "channel": "store"
+  },
+  {
+    "customer_id": 23,
+    "purchase_amount_usd": 257.09,
+    "timestamp": "2025-03-30T16:04:15",
+    "discount_code": "language",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 22,
+    "purchase_amount_usd": 293.05,
+    "timestamp": "2025-03-01T09:05:56",
+    "channel": "web"
+  },
+  {
+    "customer_id": 16,
+    "purchase_amount_usd": 215.59,
+    "timestamp": "2025-06-09T04:55:14",
+    "discount_code": "table"
+  },
+  {
+    "customer_id": 22,
+    "purchase_amount_usd": 416.38,
+    "timestamp": "2025-01-28T15:21:36",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 24,
+    "purchase_amount_usd": 390.83,
+    "timestamp": "2024-12-29T17:10:11",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 50,
+    "purchase_amount_usd": 10.14,
+    "timestamp": "2024-12-06T11:42:41",
+    "discount_code": "rule",
+    "channel": "web"
+  },
+  {
+    "customer_id": 5,
+    "purchase_amount_usd": 288.57,
+    "timestamp": "2025-05-04T23:23:36",
+    "discount_code": "sense"
+  },
+  {
+    "customer_id": 38,
+    "purchase_amount_usd": 162.17,
+    "timestamp": "2025-04-01T14:52:44",
+    "discount_code": "early",
+    "channel": "web"
+  },
+  {
+    "customer_id": 35,
+    "purchase_amount_usd": 432.68,
+    "timestamp": "2024-09-12T12:37:15"
+  },
+  {
+    "customer_id": 47,
+    "purchase_amount_usd": 419.08,
+    "timestamp": "2024-10-05T20:40:52"
+  },
+  {
+    "customer_id": 9,
+    "purchase_amount_usd": 38.85,
+    "timestamp": "2024-08-11T07:35:43",
+    "channel": "web"
+  },
+  {
+    "customer_id": 48,
+    "purchase_amount_usd": 262.89,
+    "timestamp": "2024-08-07T03:51:16",
+    "discount_code": "relate"
+  },
+  {
+    "customer_id": 36,
+    "purchase_amount_usd": 441.48,
+    "timestamp": "2025-05-24T04:06:21",
+    "discount_code": "head",
+    "channel": "store"
+  },
+  {
+    "customer_id": 19,
+    "purchase_amount_usd": 177.16,
+    "timestamp": "2025-05-22T23:09:33",
+    "discount_code": "rather"
+  },
+  {
+    "customer_id": 49,
+    "purchase_amount_usd": 43.65,
+    "timestamp": "2024-10-17T14:55:36",
+    "discount_code": "expect",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 29,
+    "purchase_amount_usd": 125.05,
+    "timestamp": "2025-05-09T21:58:38",
+    "discount_code": "air"
+  },
+  {
+    "customer_id": 23,
+    "purchase_amount_usd": 38.81,
+    "timestamp": "2024-09-26T18:55:24"
+  },
+  {
+    "customer_id": 27,
+    "purchase_amount_usd": 227.59,
+    "timestamp": "2025-02-19T12:12:32",
+    "discount_code": "south"
+  },
+  {
+    "customer_id": 37,
+    "purchase_amount_usd": 423.11,
+    "timestamp": "2025-02-04T20:05:39",
+    "discount_code": "their"
+  },
+  {
+    "customer_id": 24,
+    "purchase_amount_usd": 407.44,
+    "timestamp": "2024-11-14T17:41:11",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 3,
+    "purchase_amount_usd": 236.74,
+    "timestamp": "2024-11-14T09:57:04",
+    "discount_code": "wife",
+    "channel": "web"
+  },
+  {
+    "customer_id": 17,
+    "purchase_amount_usd": 102.19,
+    "timestamp": "2024-07-07T04:27:34",
+    "discount_code": "however",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 29,
+    "purchase_amount_usd": 111.66,
+    "timestamp": "2024-08-15T20:30:16",
+    "discount_code": "high"
+  },
+  {
+    "customer_id": 17,
+    "purchase_amount_usd": 376.02,
+    "timestamp": "2024-12-25T18:24:53"
+  },
+  {
+    "customer_id": 34,
+    "purchase_amount_usd": 134.89,
+    "timestamp": "2024-10-30T19:40:57",
+    "discount_code": "attention",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 18,
+    "purchase_amount_usd": 229.07,
+    "timestamp": "2024-08-13T13:32:21",
+    "discount_code": "management"
+  },
+  {
+    "customer_id": 39,
+    "purchase_amount_usd": 283.73,
+    "timestamp": "2024-09-03T20:41:20"
+  },
+  {
+    "customer_id": 18,
+    "purchase_amount_usd": 473.71,
+    "timestamp": "2025-06-08T15:50:18",
+    "discount_code": "minute",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 6,
+    "purchase_amount_usd": 46.78,
+    "timestamp": "2024-12-03T23:16:24",
+    "discount_code": "like"
+  },
+  {
+    "customer_id": 12,
+    "purchase_amount_usd": 31.19,
+    "timestamp": "2025-05-24T10:29:49"
+  },
+  {
+    "customer_id": 15,
+    "purchase_amount_usd": 238.29,
+    "timestamp": "2024-11-26T05:44:08"
+  },
+  {
+    "customer_id": 18,
+    "purchase_amount_usd": 80.41,
+    "timestamp": "2025-06-04T14:41:25",
+    "discount_code": "fine"
+  },
+  {
+    "customer_id": 48,
+    "purchase_amount_usd": 124.59,
+    "timestamp": "2025-05-28T08:46:19"
+  },
+  {
+    "customer_id": 28,
+    "purchase_amount_usd": 109.0,
+    "timestamp": "2025-02-16T09:09:00"
+  },
+  {
+    "customer_id": 49,
+    "purchase_amount_usd": 437.11,
+    "timestamp": "2025-06-17T03:01:53",
+    "channel": "store"
+  },
+  {
+    "customer_id": 48,
+    "purchase_amount_usd": 195.39,
+    "timestamp": "2025-03-14T12:38:57",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 6,
+    "purchase_amount_usd": 331.01,
+    "timestamp": "2024-10-20T21:56:07",
+    "channel": "web"
+  },
+  {
+    "customer_id": 40,
+    "purchase_amount_usd": 285.72,
+    "timestamp": "2025-05-17T14:05:27",
+    "discount_code": "simply"
+  },
+  {
+    "customer_id": 12,
+    "purchase_amount_usd": 432.73,
+    "timestamp": "2025-06-03T10:50:07"
+  },
+  {
+    "customer_id": 15,
+    "purchase_amount_usd": 487.23,
+    "timestamp": "2024-09-28T14:27:47"
+  },
+  {
+    "customer_id": 41,
+    "purchase_amount_usd": 267.35,
+    "timestamp": "2025-03-11T08:56:17",
+    "discount_code": "tree",
+    "channel": "web"
+  },
+  {
+    "customer_id": 4,
+    "purchase_amount_usd": 306.42,
+    "timestamp": "2024-09-27T00:09:02"
+  },
+  {
+    "customer_id": 9,
+    "purchase_amount_usd": 407.7,
+    "timestamp": "2025-04-16T15:16:06",
+    "discount_code": "evening",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 11,
+    "purchase_amount_usd": 418.97,
+    "timestamp": "2025-03-18T19:48:38"
+  },
+  {
+    "customer_id": 33,
+    "purchase_amount_usd": 126.22,
+    "timestamp": "2024-12-21T13:31:33",
+    "discount_code": "cold",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 38,
+    "purchase_amount_usd": 213.35,
+    "timestamp": "2024-12-07T15:34:37",
+    "channel": "web"
+  },
+  {
+    "customer_id": 14,
+    "purchase_amount_usd": 193.05,
+    "timestamp": "2025-05-30T17:18:05",
+    "channel": "web"
+  },
+  {
+    "customer_id": 5,
+    "purchase_amount_usd": 210.9,
+    "timestamp": "2024-08-12T01:35:36"
+  },
+  {
+    "customer_id": 44,
+    "purchase_amount_usd": 200.28,
+    "timestamp": "2025-05-12T09:04:17"
+  },
+  {
+    "customer_id": 28,
+    "purchase_amount_usd": 217.69,
+    "timestamp": "2025-01-04T20:02:36",
+    "discount_code": "reach"
+  },
+  {
+    "customer_id": 36,
+    "purchase_amount_usd": 231.31,
+    "timestamp": "2024-10-12T16:48:39",
+    "discount_code": "follow"
+  },
+  {
+    "customer_id": 18,
+    "purchase_amount_usd": 373.43,
+    "timestamp": "2024-09-14T06:55:23",
+    "discount_code": "might"
+  },
+  {
+    "customer_id": 22,
+    "purchase_amount_usd": 187.82,
+    "timestamp": "2025-03-26T08:13:33",
+    "channel": "web"
+  },
+  {
+    "customer_id": 20,
+    "purchase_amount_usd": 96.16,
+    "timestamp": "2024-12-05T11:43:19",
+    "discount_code": "practice",
+    "channel": "web"
+  },
+  {
+    "customer_id": 16,
+    "purchase_amount_usd": 44.29,
+    "timestamp": "2025-03-24T23:51:26",
+    "discount_code": "meet",
+    "channel": "store"
+  },
+  {
+    "customer_id": 41,
+    "purchase_amount_usd": 302.58,
+    "timestamp": "2025-06-18T18:41:47"
+  },
+  {
+    "customer_id": 23,
+    "purchase_amount_usd": 290.06,
+    "timestamp": "2024-12-27T15:41:13",
+    "channel": "web"
+  },
+  {
+    "customer_id": 13,
+    "purchase_amount_usd": 214.75,
+    "timestamp": "2025-06-16T00:08:11",
+    "discount_code": "hold",
+    "channel": "web"
+  },
+  {
+    "customer_id": 36,
+    "purchase_amount_usd": 350.31,
+    "timestamp": "2025-01-08T05:46:02",
+    "discount_code": "behavior"
+  },
+  {
+    "customer_id": 28,
+    "purchase_amount_usd": 315.78,
+    "timestamp": "2024-08-17T08:51:45",
+    "discount_code": "season"
+  },
+  {
+    "customer_id": 18,
+    "purchase_amount_usd": 335.69,
+    "timestamp": "2025-01-02T18:02:33"
+  },
+  {
+    "customer_id": 15,
+    "purchase_amount_usd": 231.47,
+    "timestamp": "2025-05-06T16:10:07"
+  },
+  {
+    "customer_id": 23,
+    "purchase_amount_usd": 232.3,
+    "timestamp": "2025-03-18T06:46:38",
+    "discount_code": "save",
+    "channel": "store"
+  },
+  {
+    "customer_id": 28,
+    "purchase_amount_usd": 403.5,
+    "timestamp": "2024-07-21T17:24:56",
+    "discount_code": "perform"
+  },
+  {
+    "customer_id": 37,
+    "purchase_amount_usd": 306.85,
+    "timestamp": "2024-07-23T09:45:19",
+    "discount_code": "expert"
+  },
+  {
+    "customer_id": 41,
+    "purchase_amount_usd": 238.24,
+    "timestamp": "2024-07-04T11:45:33"
+  },
+  {
+    "customer_id": 50,
+    "purchase_amount_usd": 18.87,
+    "timestamp": "2024-07-10T06:51:46"
+  },
+  {
+    "customer_id": 25,
+    "purchase_amount_usd": 312.88,
+    "timestamp": "2025-04-23T15:01:19"
+  },
+  {
+    "customer_id": 1,
+    "purchase_amount_usd": 156.95,
+    "timestamp": "2025-03-21T00:11:27"
+  },
+  {
+    "customer_id": 13,
+    "purchase_amount_usd": 103.08,
+    "timestamp": "2024-11-06T16:38:01"
+  },
+  {
+    "customer_id": 27,
+    "purchase_amount_usd": 380.13,
+    "timestamp": "2024-12-14T10:48:21"
+  },
+  {
+    "customer_id": 37,
+    "purchase_amount_usd": 296.46,
+    "timestamp": "2024-08-28T22:00:50",
+    "discount_code": "his"
+  },
+  {
+    "customer_id": 31,
+    "purchase_amount_usd": 186.73,
+    "timestamp": "2025-05-09T07:25:44",
+    "channel": "mobile"
+  },
+  {
+    "customer_id": 36,
+    "purchase_amount_usd": 125.93,
+    "timestamp": "2024-08-31T20:06:27"
+  },
+  {
+    "customer_id": 21,
+    "purchase_amount_usd": 380.07,
+    "timestamp": "2024-07-02T02:18:16"
+  },
+  {
+    "customer_id": 28,
+    "purchase_amount_usd": 26.1,
+    "timestamp": "2025-01-19T11:30:24",
+    "discount_code": "feeling"
+  }
+]
