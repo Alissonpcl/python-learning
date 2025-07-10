@@ -1,0 +1,13 @@
+id,type,integerId,name,riskLabel,cityAndRegion,country
+http://data.allim.com/core/Integer#intent018lUW,http://data.allim.com/core#Entity,intent018lUW,Aral Southern Xinjiang Hongguopin Famers Professional Cooperative,http://data.allim.com/core#CnForcedLaborl,"Alar, Xinjiang",China
+http://data.allim.com/core/Integer#intent01F6Yz,http://data.allim.com/core#Entity,intent01F6Yz,"Wusu Yuanda Cotton Industry Co., Ltd.",http://data.allim.com/core#CnForcedLabor,"Wusu, Tacheng, Xinjiang",China
+http://data.allim.com/core/Integer#intent01F6Yz,http://data.allim.com/core#Vessel,intent01F6Yz,"Wusu Yuanda Cotton Industry Co., Ltd.",http://data.allim.com/core#CnForcedLabor,"Wusu, Tacheng, Xinjiang",China
+http://data.allim.com/core/Integer#intent01GiDN,http://data.allim.com/core#Entity,intent01GiDN,"Shihezi Tiancheng Water Saving Equipment Co., Ltd.",http://data.allim.com/core#CnForcedLaborl,,China
+http://data.allim.com/core/Integer#intent01mMB4,http://data.allim.com/core#Entity,intent01mMB4,"Xinjiang Xinte Crystal Silicon Hightech Co., Ltd.",http://data.allim.com/core#CnForcedLabor0l,"Urumqi, Xinjiang",China
+http://data.allim.com/core/Integer#intent01sKCr,http://data.allim.com/core#Entity,intent01sKCr,"Shihezi West Ningxin Carbon Co., Ltd.",http://data.allim.com/core#CnForcedLabor,"Shihezi, Xinjiang",China
+http://data.allim.com/core/Integer#intent02arS7,http://data.allim.com/core#Entity,intent02arS7,"Yengisar Tianyan Industry Co., Ltd.",http://data.allim.com/core#CnForcedLabor,"Yengisar County, Kashgar Prefecture, Xinjiang",China
+http://data.allim.com/core/Integer#intent02CuQE,http://data.allim.com/core#Entity,intent02CuQE,"Hunan Xinxiang Expressway Construction Development Co., Ltd.",http://data.allim.com/core#CnForcedLaborl,"Changsha, Hunan",China
+http://data.allim.com/core/Integer#intent02VAMB,http://data.allim.com/core#Entity,intent02VAMB,"Toli County Bing Jin Cotton Industry Co., Ltd.",http://data.allim.com/core#CnForcedLabor,"Tacheng, Xinjiang",China
+http://data.allim.com/core/Integer#intent03amTY,http://data.allim.com/core#Entity,intent03amTY,"Korla Transit Station, Agricultural Production Materials Company, Xinjiang Corps Third Agricultural Division",http://data.allim.com/core#CnForcedLabor,,China
+http://data.allim.com/core/Integer#intent03lyKo,http://data.allim.com/core#Entity,intent03lyKo,"Xinjiang Longtai Jufeng Concrete Co., Ltd.",http://data.allim.com/core#CnForcedLabor,"Urumqi, Xinjiang",China
+http://data.allim.com/core/Integer#intent03lyKo,http://data.allim.com/core#Entity,intent03lyKo,"Xinjiang Longtai Jufeng Concrete Co., Ltd.",http://data.allim.com/core#CnRepression,"Urumqi, Xinjiang",China
