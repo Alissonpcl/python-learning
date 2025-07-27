@@ -140,3 +140,8 @@ cython_debug/
 .idea/
 *.iml
 .DS_Store
+
+# Patterns of files created locally
+# that doesn't need (or can't) be versioned
+*_interview.*
+ad-hoc*
