@@ -145,3 +145,8 @@ cython_debug/
 # that doesn't need (or can't) be versioned
 *_interview.*
 ad-hoc*
+/spark/structured_streaming/iot/artifacts/
+/spark/structured_streaming/iot/data/
+/spark/structured_streaming/iot/delta/
+/spark/structured_streaming/directory/artifacts/
+/spark/structured_streaming/directory/data/
